@@ -1,0 +1,811 @@
+
+------------------ SOAP REQUEST - COPY BELOW THIS LINE -----------------------
+
+<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+  <Body>
+    <GetFlights xmlns="HP.SOAQ.SampleApp">
+      <DepartureCity>Denver</DepartureCity>
+      <ArrivalCity>Los Angeles</ArrivalCity>
+    </GetFlights>
+  </Body>
+</Envelope>
+
+------------------- END SOAP REQUEST -----------------------------------------
+
+
+------------------- SOAP RESPONSE - COPY BELOW THIS LINE ---------------------
+
+
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <GetFlightsResponse xmlns="HP.SOAQ.SampleApp">
+      <GetFlightsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>09:54 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:57 AM</DepartureTime>
+          <FlightNumber>1098</FlightNumber>
+          <Price>115.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:55 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>1141</FlightNumber>
+          <Price>124.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:54 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>1159</FlightNumber>
+          <Price>104</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:21 PM</DepartureTime>
+          <FlightNumber>1418</FlightNumber>
+          <Price>117.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>1513</FlightNumber>
+          <Price>104</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:55 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>1753</FlightNumber>
+          <Price>119.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>2059</FlightNumber>
+          <Price>122</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:43 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>2081</FlightNumber>
+          <Price>128.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:43 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>2516</FlightNumber>
+          <Price>134</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>09:55 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:57 AM</DepartureTime>
+          <FlightNumber>2612</FlightNumber>
+          <Price>130.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:06 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:09 AM</DepartureTime>
+          <FlightNumber>2880</FlightNumber>
+          <Price>134.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:43 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>3019</FlightNumber>
+          <Price>124</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:06 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>3487</FlightNumber>
+          <Price>125.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>3523</FlightNumber>
+          <Price>138.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:43 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>3636</FlightNumber>
+          <Price>117.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>3740</FlightNumber>
+          <Price>126.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>3897</FlightNumber>
+          <Price>126.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:55 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>4661</FlightNumber>
+          <Price>107.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:43 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>4725</FlightNumber>
+          <Price>127.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:18 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>4777</FlightNumber>
+          <Price>110.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>4916</FlightNumber>
+          <Price>131.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>09:55 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:57 AM</DepartureTime>
+          <FlightNumber>5108</FlightNumber>
+          <Price>139.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>5114</FlightNumber>
+          <Price>129.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>5306</FlightNumber>
+          <Price>120</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:06 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:09 AM</DepartureTime>
+          <FlightNumber>5385</FlightNumber>
+          <Price>104.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>09:55 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:57 AM</DepartureTime>
+          <FlightNumber>5418</FlightNumber>
+          <Price>137.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:07 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:09 AM</DepartureTime>
+          <FlightNumber>5537</FlightNumber>
+          <Price>121.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:55 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>5562</FlightNumber>
+          <Price>124.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:06 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>5595</FlightNumber>
+          <Price>132</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:42 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>5673</FlightNumber>
+          <Price>127.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>5674</FlightNumber>
+          <Price>108</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>5696</FlightNumber>
+          <Price>122.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:21 PM</DepartureTime>
+          <FlightNumber>5709</FlightNumber>
+          <Price>106</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:42 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>5988</FlightNumber>
+          <Price>123.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>6142</FlightNumber>
+          <Price>121.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6200</FlightNumber>
+          <Price>171.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6204</FlightNumber>
+          <Price>175.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6208</FlightNumber>
+          <Price>179.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6232</FlightNumber>
+          <Price>104</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6236</FlightNumber>
+          <Price>102.9</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6240</FlightNumber>
+          <Price>175.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:00 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:00 AM</DepartureTime>
+          <FlightNumber>6244</FlightNumber>
+          <Price>179.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6248</FlightNumber>
+          <Price>104.5</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6252</FlightNumber>
+          <Price>100.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6256</FlightNumber>
+          <Price>179.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:00 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:00 AM</DepartureTime>
+          <FlightNumber>6260</FlightNumber>
+          <Price>173.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6264</FlightNumber>
+          <Price>104.1</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6268</FlightNumber>
+          <Price>104</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:00 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:00 AM</DepartureTime>
+          <FlightNumber>6276</FlightNumber>
+          <Price>177.47</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6280</FlightNumber>
+          <Price>102.9</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6284</FlightNumber>
+          <Price>102.5</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6288</FlightNumber>
+          <Price>103.5</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:00 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>08:00 AM</DepartureTime>
+          <FlightNumber>6292</FlightNumber>
+          <Price>104.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:24 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:24 AM</DepartureTime>
+          <FlightNumber>6296</FlightNumber>
+          <Price>100.1</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:48 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:48 PM</DepartureTime>
+          <FlightNumber>6300</FlightNumber>
+          <Price>104.5</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:12 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:12 PM</DepartureTime>
+          <FlightNumber>6304</FlightNumber>
+          <Price>101.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:10 AM</DepartureTime>
+          <FlightNumber>6305</FlightNumber>
+          <Price>295</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:50 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:30 AM</DepartureTime>
+          <FlightNumber>6306</FlightNumber>
+          <Price>255</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:00 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:00 PM</DepartureTime>
+          <FlightNumber>6307</FlightNumber>
+          <Price>245</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:00 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>03:00 PM</DepartureTime>
+          <FlightNumber>6308</FlightNumber>
+          <Price>230</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>10:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:00 PM</DepartureTime>
+          <FlightNumber>6309</FlightNumber>
+          <Price>199</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:55 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>6355</FlightNumber>
+          <Price>119.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:43 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>6399</FlightNumber>
+          <Price>122.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:07 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>6593</FlightNumber>
+          <Price>124.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:43 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>6744</FlightNumber>
+          <Price>121.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:21 PM</DepartureTime>
+          <FlightNumber>6774</FlightNumber>
+          <Price>101.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:42 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>6899</FlightNumber>
+          <Price>127.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:21 PM</DepartureTime>
+          <FlightNumber>7220</FlightNumber>
+          <Price>135.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:18 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>7333</FlightNumber>
+          <Price>136.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:07 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>7510</FlightNumber>
+          <Price>119.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>03:54 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>02:57 PM</DepartureTime>
+          <FlightNumber>7526</FlightNumber>
+          <Price>138</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:07 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>7574</FlightNumber>
+          <Price>136</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>7631</FlightNumber>
+          <Price>125.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:43 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>7734</FlightNumber>
+          <Price>104.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:07 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:09 AM</DepartureTime>
+          <FlightNumber>7767</FlightNumber>
+          <Price>134.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>05:07 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>04:09 PM</DepartureTime>
+          <FlightNumber>7967</FlightNumber>
+          <Price>127.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>SW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>7986</FlightNumber>
+          <Price>107.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>01:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>12:33 PM</DepartureTime>
+          <FlightNumber>8466</FlightNumber>
+          <Price>101.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>8622</FlightNumber>
+          <Price>134.8</Price>
+        </Flight>
+        <Flight>
+          <Airlines>TWA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>08:42 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>07:45 AM</DepartureTime>
+          <FlightNumber>8649</FlightNumber>
+          <Price>134.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:30 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>8679</FlightNumber>
+          <Price>123.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>NW</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>02:43 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>01:45 PM</DepartureTime>
+          <FlightNumber>9094</FlightNumber>
+          <Price>123.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>DA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>07:31 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>06:33 PM</DepartureTime>
+          <FlightNumber>9117</FlightNumber>
+          <Price>111.6</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>06:18 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>05:21 PM</DepartureTime>
+          <FlightNumber>9270</FlightNumber>
+          <Price>100.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>AA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:18 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>9400</FlightNumber>
+          <Price>126.4</Price>
+        </Flight>
+        <Flight>
+          <Airlines>UA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>11:06 AM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>10:09 AM</DepartureTime>
+          <FlightNumber>9852</FlightNumber>
+          <Price>133.2</Price>
+        </Flight>
+        <Flight>
+          <Airlines>USA</Airlines>
+          <ArrivalCity>Los Angeles</ArrivalCity>
+          <ArrivalTime>12:19 PM</ArrivalTime>
+          <DepartureCity>Denver</DepartureCity>
+          <DepartureTime>11:21 AM</DepartureTime>
+          <FlightNumber>9897</FlightNumber>
+          <Price>122</Price>
+        </Flight>
+      </GetFlightsResult>
+    </GetFlightsResponse>
+  </s:Body>
+</s:Envelope>
+ 
+------------------- END SOAP RESPONSE -----------------------------------------

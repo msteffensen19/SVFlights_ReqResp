@@ -3,7 +3,7 @@
 
 <Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
   <Body>
-    <GetFlights xmlns="HP.SOAQ.SampleApp">
+    <GetFlights xmlns="SV.SOAQ.SampleApp">
       <DepartureCity>Denver</DepartureCity>
       <ArrivalCity>Los Angeles</ArrivalCity>
     </GetFlights>
@@ -18,7 +18,7 @@
 
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
   <s:Body>
-    <GetFlightsResponse xmlns="HP.SOAQ.SampleApp">
+    <GetFlightsResponse xmlns="SV.SOAQ.SampleApp">
       <GetFlightsResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
         <Flight>
           <Airlines>UA</Airlines>
